@@ -1,0 +1,47 @@
+h1{
+    margin: auto;
+    font-size: 2.4em;
+  text-align: center;
+  text-decoration: solid;
+    font-style: oblique;
+    color: ghostwhite;
+    background-color:  rgb(176, 161, 192);
+}
+.All{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    margin: auto;
+}
+.first{
+    background-color: rgb(189, 177, 201);
+    width: 132px;
+    padding: 43px ;
+    margin: auto;
+    border: 1px rgb(165, 158, 158) solid;
+    border-radius: 19%;
+    height: 172px;
+    box-shadow: 10px 10px 10px gainsboro;
+text-align: center;
+
+}
+.first:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.first button{
+    border-radius: 20%;
+    width: 150px;
+    height: 44px;
+    font-size: 22px;
+    border: seashell;
+}
+.first svg{
+    height: 31px;
+    width: 31px;
+}
+h2{
+    font-size: 30px;
+}
